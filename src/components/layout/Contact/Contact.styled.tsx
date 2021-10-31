@@ -6,10 +6,6 @@ export const StyledContact = styled.section`
   padding: 200px 100px;
   ul.contact-content {
     width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,6 +1,6 @@
 
 import React from 'react';
-import ServicesArea from '../ServicesArea/ServicesArea';
+import ServicesArea from './ServicesArea/ServicesArea';
 import About from './About/About';
 import Banner from './Banner/Banner';
 import Contact from './Contact/Contact';
