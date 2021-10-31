@@ -1,16 +1,19 @@
+import { Typography } from "@mui/material";
 import { StyledButton } from "../../UI/Button/StyledButton.styled";
 import { StyledBanner } from "./Banner.styled";
 
-const Banner:React.FC = () => {
-    return(
+const Banner: React.FC = () => {
+    return (
         <StyledBanner>
             <div className="banner-image">
 
             </div>
-            <h1>
+            <Typography className="bannerh1" fontWeight="900" variant="h2" component="div">
                 FlexBox Website
-            </h1>
-            <h2>Responsive Web Design</h2>
+            </Typography>
+            <Typography fontWeight="700" variant="h4" component="div" gutterBottom>
+                Responsive Web Design
+            </Typography>
             <StyledButton>Contact us</StyledButton>
         </StyledBanner>
     );

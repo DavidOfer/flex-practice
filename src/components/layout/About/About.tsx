@@ -1,6 +1,9 @@
 
+import React from "react";
 import { StyledButton } from "../../UI/Button/StyledButton.styled";
 import { StyledAbout } from "./About.styled";
+
+
 const About: React.FC = () => {
     return (
         <StyledAbout>

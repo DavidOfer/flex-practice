@@ -20,10 +20,6 @@ export const StyledAbout = styled.section`
   }
   .about-content {
     width: 100%;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

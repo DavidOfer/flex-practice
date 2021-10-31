@@ -6,14 +6,6 @@ export const StyledBanner = styled.section`
   justify-content: center;
   min-height: 100vh;
   text-align: center;
-  h1 {
-    margin-bottom: 15px;
-    font-size: 65px;
-    font-family: merienda;
-  }
-  h2 {
-    margin-bottom: 15px;
-  }
   .banner-image {
     background-image: url("https://i.redd.it/jx0cehys3yr31.jpg");
     position: absolute;
@@ -26,14 +18,14 @@ export const StyledBanner = styled.section`
   }
   
   @media (max-width: 1000px) {
-    h1 {
-      margin-top: 15px;
+    .bannerh1 {
+      margin-top: 30px;
     }
     padding: 100px 50px;
   }
   @media (max-width: 700px) {
-    h1 {
-      margin-top: 15px;
+    .bannerh1 {
+      margin-top: 30px;
     }
     padding: 125px 30px;
     min-height: 600px;
